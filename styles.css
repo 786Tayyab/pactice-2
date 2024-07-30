@@ -1,0 +1,22 @@
+#messageContainer {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    max-width: 300px;
+    z-index: 1000;
+}
+
+.message {
+    background-color: #4caf50;
+    color: white;
+    max-width: 50%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.message.hide {
+    opacity: 0;
+}
